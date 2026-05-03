@@ -1,0 +1,17 @@
+{
+  "thread_id": "address-parser-91",
+  "run_id": 92,
+  "task": "# Address Intelligence Library \u2014 Phased Feature Brief\n\nReorganized from: `features_and_functions_brief.md`\nDate: 2026-04-23\n\nEach phase builds directly on the layer below it. Phase 1 must be stable before Phase 2 begins, etc. The canonical address component schema applies to all phases and is defined here first.\n\n---\n\n## Canonical Address Component Schema\n\nAll phases share this 15-field schema, derived from US DOT National Address Database (NAD v17) and USPS Pub 28.\n\n| Field | Description | Exam",
+  "status": "complete",
+  "timestamp": "2026-05-02T22:57:05",
+  "artifacts": {
+    "architecture_file": "projects/address-parser/architecture.md",
+    "module_structure_file": "projects/address-parser/module_structure.md",
+    "source_files": [
+      "projects/address-parser/src/main.py"
+    ],
+    "test_report_file": "projects/address-parser/test_report.md",
+    "lint_report_file": "projects/address-parser/lint_report.md",
+    "qa_attempts": 1
+  }
+}
